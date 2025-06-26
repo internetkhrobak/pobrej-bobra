@@ -12,7 +12,7 @@ while True:
         break
 
     b = input("Введите второе число: ")
-    if b.lower() == 'выход':
+    if b.lower() == '':
         break
 
     try:
