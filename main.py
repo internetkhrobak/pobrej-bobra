@@ -1,4 +1,5 @@
 while True:
+    print('koncha')
     print("\nПростой калькулятор")
     print("Операции: +, -, *, /")
     print("Введите 'выход' чтобы завершить")
@@ -12,7 +13,7 @@ while True:
         break
 
     b = input("Введите второе число: ")
-    if b.lower() == '':
+    if b.lower() == 'выход':
         break
 
     try:
